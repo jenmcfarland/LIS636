@@ -1,0 +1,60 @@
+
+/* Change the font. change the background color. Make the page more narrow. */
+body {
+  background-color: rgb(214, 245, 246);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 25%;
+  font-size: 19px; /* Make the font larger */
+  line-height: 25px; /* Make the space between lines greater */
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+}
+
+
+div p {
+  text-indent: 0px;
+  text-align: left;
+}
+
+/* Make everything (*) in the header AND footer tags center align. */
+header *,
+footer * {
+  text-align: center;
+}
+
+footer {
+  margin-top: 6rem;
+  text-align: left;
+}
+
+footer p {
+  text-indent: 0px;
+
+}
+
+h1   {
+  color:black;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5rem; 
+}
+
+h3  {
+  text-align: center;
+  margin-top: 3rem; /* Make the h3 have a little less than the h2. */
+}
+
+/* Make the img take up the full width. */
+img {
+  width: 100%;
+  margin: 2rem 0;
+  /* Add a slight dropshadow: https://cssgenerator.org/box-shadow-css-generator.html */
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.43);
+}
